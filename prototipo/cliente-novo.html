@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cadastrar cliente · Trajano &amp; Melo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <div class="marca">Trajano &amp; Melo<small>Advocacia · Gestão</small></div>
+    <nav class="menu" aria-label="Menu principal">
+      <div class="menu-titulo">Escritório</div>
+      <a href="painel.html">Painel</a><a href="clientes.html" class="ativo">Clientes</a><a href="procuracoes.html">Procurações</a><a href="documentos.html">Documentos</a><a href="casos.html">Casos</a><a href="protocolos.html">Protocolos</a><a href="prazos.html">Prazos e audiências<span class="contador">3</span></a>
+    </nav>
+    <div class="usuario"><strong>Dr. Ildefonso Melo</strong>Advogado · <a href="index.html">Sair</a></div>
+  </aside>
+  <main class="conteudo">
+    <div class="topo">
+      <div class="busca">⌕ Buscar cliente, CNPJ ou nº do processo</div>
+      <div class="data">Quinta, 15 de outubro de 2026</div>
+    </div>
+    <h1>Cadastrar cliente</h1>
+    <p class="subtitulo">Primeira etapa do atendimento. Depois do cadastro, o próximo passo é gerar a procuração.</p>
+    <div class="cartao" style="margin-bottom:20px"><ol class="fio"><li class="atual"><strong>Cliente</strong>cadastrado</li><li class=""><strong>Procuração</strong>assinada</li><li class=""><strong>Documentos</strong>coletados</li><li class=""><strong>Histórico</strong>do caso</li><li class=""><strong>Protocolo</strong>da peça</li></ol></div>
+    <form class="cartao form" action="procuracoes.html">
+      <div class="campo"><label for="tipo">Tipo de cliente</label><select id="tipo"><option>Pessoa jurídica</option><option>Pessoa física</option></select></div>
+      <div class="campo"><label for="doc">CNPJ</label><input id="doc" value="56.789.012/0001-34"></div>
+      <div class="campo inteiro"><label for="razao">Razão social</label><input id="razao" value="Mercadinho Catolé ME"></div>
+      <div class="campo"><label for="resp">Representante legal</label><input id="resp" value="Maria do Socorro Lima"></div>
+      <div class="campo"><label for="cpfresp">CPF do representante</label><input id="cpfresp" value="987.654.321-00"></div>
+      <div class="campo"><label for="tel">Telefone / WhatsApp</label><input id="tel" value="(83) 99812-4410"></div>
+      <div class="campo"><label for="mail">E-mail</label><input id="mail" value="contato@mercadinhocatole.com.br"></div>
+      <div class="campo inteiro"><label for="end">Endereço</label><input id="end" value="Rua Rodrigues Alves, 512 – Catolé, Campina Grande – PB"></div>
+      <div class="secao-form">Sobre o atendimento</div>
+      <div class="campo"><label for="area">Área</label><select id="area"><option>Tributário</option><option>Empresarial</option><option>Trabalhista</option><option>Previdenciário</option></select></div>
+      <div class="campo"><label for="adv">Advogado responsável</label><select id="adv"><option>Dr. Ildefonso Melo</option></select></div>
+      <div class="campo inteiro"><label for="rel">Relato inicial</label><textarea id="rel">Recebeu auto de infração de ICMS da SEFAZ-PB referente a 2024. Quer avaliar defesa administrativa.</textarea><span class="ajuda">Um resumo do que o cliente contou no primeiro atendimento.</span></div>
+      <div class="acoes"><a class="botao secundario" href="clientes.html">Cancelar</a><button class="botao" type="submit">Salvar e gerar procuração</button></div>
+    </form>
+
+  </main>
+</div>
+</body>
+</html>
