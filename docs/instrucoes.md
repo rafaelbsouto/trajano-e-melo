@@ -24,7 +24,8 @@
 
 ## Visual
 - Minimalista e sóbrio, de escritório de advocacia
-- Paleta: verde escuro de capa de processo (#1F4D3F), papel (#F3F5F4), tinta (#14231F), vermelho lacre para prazos (#9E2B25) e dourado latão para carimbos de protocolo (#B08A3E)
+- Usar a **logo oficial do escritório** (versão branca sobre o azul na lateral e no login) e o símbolo como favicon
+- Paleta da marca: azul-marinho **#001F52** como cor principal e amarelo-ouro **#F8BC00** da logo nos destaques e carimbos de protocolo; vermelho (#B42318) só para prazos urgentes; fundo claro #F4F6FA
 - Fontes: Spectral nos títulos, IBM Plex Sans no texto e IBM Plex Mono nos números de processo
 - Responsivo
 
