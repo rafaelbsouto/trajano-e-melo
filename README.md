@@ -7,7 +7,7 @@
 > **Entrega 1:** protótipo das telas, descrição do sistema e vídeo explicativo.
 
 - 🖥️ **Protótipo navegável:** abra [`prototipo/index.html`](prototipo/index.html) (ou o link do GitHub Pages no topo do repositório)
-- 🎬 **Vídeo de apresentação narrado (2 min 25 s):** [`video-apresentacao.mp4`](video-apresentacao.mp4)
+- 🎬 **Vídeo de apresentação narrado (2 min 20 s):** [`video-apresentacao.mp4`](video-apresentacao.mp4)
 
 ---
 
